@@ -1,0 +1,44 @@
+
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background: url('https://images.unsplash.com/photo-1516035069371-29a1b244cc32') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+header {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 1rem;
+}
+
+nav a {
+  color: #ffd700;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.6);
+  min-height: 60vh;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.8);
+  font-size: 0.9rem;
+} 
